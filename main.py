@@ -2,6 +2,9 @@
 
 Pure Python 3 standard library only. Fully self-contained: the entry line is
 defined in this file; no sibling imports, no network access.
+
+The entry must stay exactly one line (no embedded newlines), so the file
+holds the line plus a single trailing newline and stdout prints the line only.
 """
 
 import os
